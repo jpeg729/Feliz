@@ -1,6 +1,16 @@
 # Feliz.UseElmish [![Nuget](https://img.shields.io/nuget/v/Feliz.UseElmish.svg?maxAge=0&colorB=brightgreen)](https://www.nuget.org/packages/Feliz.UseElmish)
 
-Build React components following the Elmish model to manage the state of the component. Written as a hook called `React.useElmish`. Here is an example to demonstrate how to build such component:
+Build React components following the Elmish model to manage the state of the component. Written as a hook called `React.useElmish`. 
+
+First you will need to install the package `Feliz.UseElmish`
+```bash
+# nuget
+dotnet add package Feliz.UseElmish
+# paket
+paket add Feliz.UseElmish --project ./project/path
+```
+
+Here is an example to demonstrate how to build such component:
 ```fsharp:use-elmish-basic
 open Feliz
 open Feliz.UseElmish
